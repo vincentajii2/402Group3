@@ -1,0 +1,125 @@
+/* styles.css */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Main Content Styles */
+  main {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  /* Custom Text Box Styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"], 
+  .form-group input[type="email"], 
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .form-group input[type="text"]:focus, 
+  .form-group input[type="email"]:focus, 
+  .form-group textarea:focus {
+    border: 2px solid #c0392b;
+    outline: none;
+  }
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

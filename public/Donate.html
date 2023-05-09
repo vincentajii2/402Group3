@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Bank Donate</title>
+        <link rel="stylesheet" type="text/css" href="signup.css">
+
+      </head>
+      <body>
+        <!-- Header -->
+        <header>
+          <h1>Food Bank</h1>
+        </header>
+    
+        <!-- Navigation -->
+        <nav>
+          <a href="index.html">Home</a>
+          <A HREF="About Us.html">About Us</A>
+          <a href="gettinginvolved.html">Get Involved</a>
+          <a href="Donate.html">Donate</a>
+          <a href="Contact Us.html">Contact Us</a>
+          <a href="signup.html">Signup </a>
+          <a href="SignIn.html">Sign-In</a>
+        </nav>
+
+
+        <h1>Donation Form</h1>
+<form action="/insert_data" method="post" >
+       First name:<br>
+        <input type="text" name="firstname" required>
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" required>
+         <br>
+         Email:<br>
+         <input type="email" name="email" required>
+         <br>
+         Non Perishable Food (Format as 2x Jello):<br>
+         <input type="text" name="food">
+         <br>
+         Monetary Donation:<br>
+         <input type="number" name="donation" required>
+         <br>
+         Enter your password to confirm:<br>
+         <input type="password" name="password" required>
+         <br>
+         <input type="checkbox" onclick="myFunction()">Show Password
+         <input type="submit" value="Submit">
+     </form>
+    </body>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Food Bank. All rights reserved.</p>
+      </footer>
+</html>
